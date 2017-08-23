@@ -1,0 +1,33 @@
+{
+  "name": "mongo_scraping_for_news",
+  "version": "1.0.0",
+  "description": "App that allows users to scrape news from a genre of their choice",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afflatus480/mongo_scraping_for_news.git"
+  },
+  "keywords": [
+    "MongoDB",
+    "Scrape",
+    "Express.js",
+    "Node.js",
+    "Javascript"
+  ],
+  "author": "Robert Zobrist",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/afflatus480/mongo_scraping_for_news/issues"
+  },
+  "homepage": "https://github.com/afflatus480/mongo_scraping_for_news#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "mongojs": "^2.4.1",
+    "morgan": "^1.8.2"
+  }
+}
