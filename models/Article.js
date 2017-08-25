@@ -1,9 +1,13 @@
+// require mongoose and the database connection
+const db = require('../config/connect')
 const mongoose = require("mongoose");
 // Create Schema class
-var Schema = mongoose.Schema;
+const Schema = mongoose.Schema;
+
+
 
 // Create article schema
-var ArticleSchema = new Schema({
+const ArticleSchema = new Schema({
   // title is a required string
   headline: {
     type: String,
