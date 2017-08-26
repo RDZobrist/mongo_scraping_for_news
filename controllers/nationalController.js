@@ -12,7 +12,7 @@ const scrapeNational = () => {
         // Load the html body from request into cheerio
         var $ = cheerio.load(html);
         // For each article element with a "buckets-bottom" class
-        $("div.buckets-bottom article").each(function (i, element) {
+        $("article.hed-summ").each(function (i, element) {
     
           // initiate an empty entry object
           var data = {};
