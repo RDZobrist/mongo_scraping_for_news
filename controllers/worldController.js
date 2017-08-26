@@ -41,8 +41,8 @@ const scrapeTheWorldNews = () =>  {
         });
     
       });
-      res.send('scrape complete')
+     
     
 }
 
-module.exports = scrapeTheWorldNews;
+exports.scrapeTheWorldNews = scrapeTheWorldNews;

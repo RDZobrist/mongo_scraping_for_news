@@ -41,7 +41,7 @@ const scrapeNational = () => {
         });
     
       });
-      res.send('scrape complete')
+      
 }
 
-module.exports = scrapeNational;
+exports.scrapeNational = scrapeNational;

@@ -42,8 +42,8 @@ const scrapeTheSports = () =>{
         });
     
       });
-      res.send('scrape complete')
+      console.log('Scrape Complete!')
     
 }
 
-module.exports = scrapeTheSports;
+exports.scrapeTheSports = scrapeTheSports;

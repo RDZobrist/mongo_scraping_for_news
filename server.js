@@ -3,7 +3,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
 
-// Require the routes and give the server access to them
+// Require the routes and use them
 var routes = require('./routes/routes');
 
 

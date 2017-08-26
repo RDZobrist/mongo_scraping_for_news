@@ -41,6 +41,8 @@ const scrapeBizNews = ()=>  {
         });
     
       });
-      res.send('scrape complete')
+     
     
 }
+
+exports.scrapeBizNews = scrapeBizNews;

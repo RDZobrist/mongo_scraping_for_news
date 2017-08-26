@@ -42,7 +42,7 @@ const scrapeEconNews = ()=>{
         });
     
       });
-      res.send('scrape complete')
+     
 }
 
-module.exports = scrapeEconNews;
+exports.scrapeEconNews = scrapeEconNews;
