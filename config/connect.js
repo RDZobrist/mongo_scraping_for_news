@@ -2,7 +2,7 @@
 var mongoose = require('mongoose');
 
 
-// Set mongoose to leverage built in JavaScript ES6 Promises
+// Set mongoose to leverage JavaScript ES6 Promises
 mongoose.Promise = Promise;
 
 
