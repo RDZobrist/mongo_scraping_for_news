@@ -1,5 +1,5 @@
 // require mongoose
-var mongoose = require('mongoose');
+const mongoose = require('mongoose');
 
 
 // Set mongoose to leverage JavaScript ES6 Promises
